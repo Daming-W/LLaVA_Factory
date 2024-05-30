@@ -84,7 +84,7 @@ def train():
                            args=training_arguments,
                            **data_module)
     
-    trainer.train()
+    trainer.train() 
     
     training_recipe.save(model, trainer)
 
